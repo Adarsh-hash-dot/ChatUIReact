@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chat-dashboard/static/css/main.942ac016.css",
+    "main.js": "/chat-dashboard/static/js/main.54eb522c.js",
+    "static/media/whatsapp.png": "/chat-dashboard/static/media/whatsapp.bded4f44087fb4e89252.png",
+    "index.html": "/chat-dashboard/index.html",
+    "main.942ac016.css.map": "/chat-dashboard/static/css/main.942ac016.css.map",
+    "main.54eb522c.js.map": "/chat-dashboard/static/js/main.54eb522c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.942ac016.css",
+    "static/js/main.54eb522c.js"
+  ]
+}
