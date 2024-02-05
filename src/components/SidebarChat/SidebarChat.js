@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "@mui/material";
 import styles from "./SidebarChat.module.css";
 
-const SidebarChat = ({ addNewChat }) => {
+const SidebarChat = ({ name, avatar, lastMessage, chat, setChat }) => {
   const addNewRoom = () => {
     const roomName = prompt("Enter room name");
 
@@ -10,17 +10,25 @@ const SidebarChat = ({ addNewChat }) => {
       // do some stuff
     }
   };
-  return !addNewChat ? (
-    <div className={styles.sidebarChat}>
-      <Avatar src="https://i.pravatar.cc/100"></Avatar>
+
+  //  : (
+  //   <div onClick={() => addNewRoom()} className={styles.sidebarChat}>
+  //     <h2>Add new Chat</h2>
+  //   </div>
+  // );
+  return (
+    <div className={styles.sidebarChat} onClick={() => setChat(chat)}>
+      <Avatar
+        src={`https://ui-avatars.com/api/?name=${name}&background=random`}
+      ></Avatar>
       <div className={styles.sidebarChat__info}>
-        <h2>Room Name</h2>
-        <div>chats...</div>
+        <h2>{name}</h2>
+        <div>
+          {" "}
+          {lastMessage ? lastMessage.text : ""}{" "}
+          {/* <span className={styles.chat__timestamp}>11:30</span> */}
+        </div>
       </div>
-    </div>
-  ) : (
-    <div onClick={() => addNewRoom()} className={styles.sidebarChat}>
-      <h2>Add new Chat</h2>
     </div>
   );
 };

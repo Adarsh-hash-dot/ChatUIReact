@@ -17,3 +17,8 @@
   font-size: 16px;
   margin-bottom: 8px;
 }
+
+.chat__timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
