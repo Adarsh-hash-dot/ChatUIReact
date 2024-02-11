@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ChatUIReact/static/css/main.d07e4f9d.css",
-    "main.js": "/ChatUIReact/static/js/main.637d6dce.js",
+    "main.js": "/ChatUIReact/static/js/main.9164f82a.js",
     "static/media/whatsapp.png": "/ChatUIReact/static/media/whatsapp.bded4f44087fb4e89252.png",
     "index.html": "/ChatUIReact/index.html",
     "main.d07e4f9d.css.map": "/ChatUIReact/static/css/main.d07e4f9d.css.map",
-    "main.637d6dce.js.map": "/ChatUIReact/static/js/main.637d6dce.js.map"
+    "main.9164f82a.js.map": "/ChatUIReact/static/js/main.9164f82a.js.map"
   },
   "entrypoints": [
     "static/css/main.d07e4f9d.css",
-    "static/js/main.637d6dce.js"
+    "static/js/main.9164f82a.js"
   ]
 }
