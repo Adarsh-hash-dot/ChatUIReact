@@ -13,7 +13,6 @@ function Chat({ chat, sendMessage }) {
 
   const send_message = (e) => {
     e.preventDefault();
-    console.log(input);
     sendMessage(input, chat.id);
     setInput("");
   };

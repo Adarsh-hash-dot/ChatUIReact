@@ -25,15 +25,12 @@ function Sidebar({ contacts, chats, setChat, addContactToChat, setcontacts }) {
   };
 
   const handleInput = (e) => {
-    console.log(e.target.value);
-    console.log(contacts);
     if (e.target.value) {
       const newcontacts = contacts.filter((contact) => {
         return contact.name
           .toLowerCase()
           .includes(e.target.value.toLowerCase());
       });
-      console.log(newcontacts);
       setcontacts(newcontacts);
     } else {
       setcontacts(contacts_data);
