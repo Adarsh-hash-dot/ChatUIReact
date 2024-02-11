@@ -88,7 +88,7 @@ function Sidebar({ contacts, chats, setChat, addContactToChat, setcontacts }) {
       </div>
       <div className={styles.sidebar_chats}>
         {/* <SidebarChat addNewChat={true} /> */}
-        {chats.map((chat) => (
+        {chats?.map((chat) => (
           <SidebarChat
             key={chat.id}
             name={chat.name}
