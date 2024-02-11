@@ -31,7 +31,7 @@ function App() {
         return chat;
       }
     });
-    setchats(newChat);
+    setchats();
   };
 
   function getTime() {
