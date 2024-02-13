@@ -38,7 +38,7 @@ Youtube Video Link
 
 ## Lessons Learned
 
-I have learned about useState, useEffect, state management, MUI usage for developing compnents, module CSS, props  passing.
+I have learned about useState, useEffect, state management, MUI, module CSS, props  passing.
 
 - A short method to center a div is 
 
