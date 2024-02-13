@@ -1,7 +1,7 @@
 
 # ChatUIReact
 
-This application is dashboard application. Currently It asummes that the user is loggedin this allows us to focus on Chat-dashboard
+This application is dashboard application. Currently It asummes that the user is loggedin this allows us to use Chat-dashboard
 
 ## Features
 
