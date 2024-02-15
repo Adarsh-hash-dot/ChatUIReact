@@ -5,13 +5,13 @@ This application is dashboard application. Currently It asummes that the user is
 
 ## Features
 
-- Search : conversations should be searchable by contact name.
+- Search : conversations are searchable by contact name.
 - Left sidebar:
     Show all the conversations created
     Each conversation have the contact name and some text of the last message in the chat
 - Create conversation:
     On clicking this open a pop up and load all the contacts (from the dummy data.json/js file).
-    On clicking the contact start a new conversation (if no conversation was previously started). Or open the existing conversation for that contact.
+    On clicking the contact start a new conversation (if no conversation was previously started). Or opens the existing conversation for that contact.
 
 - Right side view:
     Show the current selected conversation messages
